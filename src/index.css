@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---- Base Reset ---- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #0A0A0F;
+  color: #E2E8F0;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* ---- Custom Scrollbar ---- */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #0A0A0F; }
+::-webkit-scrollbar-thumb { background: #2A2A3A; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #DC2626; }
+
+/* ---- Glassmorphism Utility ---- */
+.glass {
+  background: rgba(14, 14, 20, 0.7);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-light {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.glass-card {
+  background: rgba(17, 17, 24, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  transition: border-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+.glass-card:hover {
+  border-color: rgba(220, 38, 38, 0.2);
+  box-shadow: 0 0 40px rgba(220, 38, 38, 0.06);
+}
+
+/* ---- Glow Effects ---- */
+.glow-border {
+  position: relative;
+}
+.glow-border::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(220,38,38,0.25), transparent 50%, rgba(249,115,22,0.15));
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.glow-border:hover::after {
+  opacity: 1;
+}
+
+/* ---- Section Styles (all dark) ---- */
+.section-dark { background: transparent; }
+.section-darker { background: rgba(10, 10, 15, 0.5); }
+.section-alt { background: rgba(17, 17, 24, 0.4); }
+
+/* ---- Text Gradient (crimson → orange) ---- */
+.text-gradient {
+  background: linear-gradient(135deg, #DC2626, #F97316, #FB923C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ---- Accent Line ---- */
+.accent-line {
+  width: 48px;
+  height: 3px;
+  background: linear-gradient(90deg, #DC2626, #F97316);
+  border-radius: 2px;
+}
+
+/* ---- Selection ---- */
+::selection {
+  background: rgba(220, 38, 38, 0.3);
+  color: #F1F5F9;
+}
+
+/* ---- Canvas Container (full background) ---- */
+.bubble-canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* ---- Serif body text for philosophical passages ---- */
+.prose-serif {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 1.1rem;
+  line-height: 1.85;
+  color: #CBD5E1;
+  letter-spacing: 0.01em;
+}
+
+.prose-serif em {
+  font-style: italic;
+  color: #F97316;
+}
+
+/* ---- Consistency Graph Bar ---- */
+.bar-fill {
+  transition: width 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* ---- Subtle parallax layer ---- */
+.parallax-layer {
+  will-change: transform;
+}
