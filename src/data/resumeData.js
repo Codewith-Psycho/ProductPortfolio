@@ -1,8 +1,8 @@
 // All resume data structured for PM, Founder's Office, and Data/Analytics portfolio
 export const resumeData = {
   name: 'Himanshu',
-  title: 'I sit at the intersection of product, data, and strategy. I build from there.',
-  subtitle: 'AI & Data Science undergrad who has shipped 3 live products, worked in a COO\'s office, and diagnosed real product problems in B2B SaaS platforms — all before graduating',
+  title: "Great products start with internal clarity and relentless execution. Let's build one.",
+  subtitle: "AI & Data Science undergrad focused on systems and strategy. Open to Data/Business Analyst, PM, and Founder's Office roles (Onsite / Remote / Hybrid). PAN-based.",
   location: 'Delhi, India',
   email: 'himanshuworkin01@gmail.com',
   linkedin: 'https://www.linkedin.com/in/himanshu-15226b307/',
@@ -11,8 +11,8 @@ export const resumeData = {
   summary: `AI & Data Science undergraduate with hands-on experience shipping live AI and cloud-based products end-to-end — from customer discovery and PRD authoring to Agile sprint execution across cross-functional teams. Demonstrated ability to translate complex AI and ML capabilities into measurable user outcomes, backed by direct C-suite exposure and a consistent national-finalist track record.`,
 
   heroStats: [
-    { value: '3', label: 'Live Products Shipped' },
-    { value: '97%', label: 'Cost Verification Drop · NeeLedger' },
+    { value: '2', label: 'Live Products Shipped' },
+    { value: '100%', label: 'Credit Traceability · Neeledger' },
     { value: '8+', label: 'National Competition Finals' },
     { value: '2L+', label: 'Competitors Outranked · EY' },
   ],
@@ -81,21 +81,21 @@ export const resumeData = {
       outcome: 'Eliminated a multi-hour manual reporting cycle. 2 products launched. Letter of Recommendation from COO.',
     },
     {
-      title: 'NeeLedger',
-      subtitle: 'AI + Blockchain Carbon Verification Platform',
-      tags: ['Product', 'GTM', 'AI Pipeline', 'UX'],
+      title: 'Neeledger',
+      subtitle: 'Blue Carbon Credit Traceability',
+      tags: ['Product', 'Blockchain', 'Sustainability', 'MRV'],
       date: 'Aug 2025 – Mar 2026',
       role: 'Team Lead · National Finalist',
       blocks: [
-        { label: 'Problem', text: 'Carbon credit verification cost ₹12–40L per org with multi-month timelines — locking out 90%+ of companies.' },
-        { label: 'My Role', text: 'Defined product proposition, led UX, translated a 3-layer AI pipeline into an auditor-ready product.' },
-        { label: 'Key Decision', text: 'Abstracted blockchain complexity entirely from the user interface — auditors needed confidence, not technical detail.' },
-        { label: 'Tradeoff', text: 'Scoped MVP to one audit type to validate the core cost-reduction assumption before expanding.' },
+        { label: 'Problem', text: 'Lack of transparency, high double-counting risk, and complex verification processes hindering Indian organizations from actively participating in voluntary and compliance blue carbon markets.' },
+        { label: 'Platform Strategy', text: 'A blockchain-based platform designed to track verified blue carbon credits from issuance to retirement. Phase 1 enables secure ownership, transfer, and sale tracking.' },
+        { label: 'Phase 2 Expansion', text: 'Adds MRV (Measurement, Reporting, and Verification) document linkage, connecting PDDs (Project Design Documents) and verification reports directly to the tokens.' },
+        { label: 'PM Thinking', text: 'Designed a phased roadmap to address critical trust and double-counting risks first, establishing proof of ownership before layering in complex compliance documents.' },
       ],
-      outcome: '97% cost reduction. National finalist. Live product.',
+      outcome: 'Improved credit transparency and eliminated double counting. Shipped Phase 1 tracking. National Finalist.',
       link: 'https://neeledger-omega.vercel.app/',
-      metric: '97%',
-      metricLabel: 'Cost Reduction',
+      metric: '100%',
+      metricLabel: 'Traceability Rate',
     },
     {
       title: 'VoltIQ',
@@ -148,7 +148,7 @@ export const resumeData = {
       cgpaNote: 'up to 5th Semester',
       date: 'Sep 2023 – Aug 2027 (Expected)',
       location: 'Delhi, India',
-      coursework: ['Machine Learning', 'NLP', 'Neural Networks', 'Blockchain', 'Cloud Computing', 'IoT', 'HCI', 'Statistics', 'Operations Research'],
+      coursework: ['AIML', 'Metaverse', 'Blockchain', 'Cloud Computing', 'IoT', 'Probability & Statistics', 'Operations Research', 'Core CSE', 'Supply Chain Management', 'Economics', 'Accountancy', 'Software Engineering', 'Product Management', 'Data/Business Analytics'],
     },
     {
       institution: 'Good Samaritan School, Jasola (CBSE)',

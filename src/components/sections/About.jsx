@@ -1,23 +1,26 @@
 import { motion } from 'framer-motion'
 import { Rocket, Trophy, Users, Briefcase } from 'lucide-react'
 import { resumeData } from '../../data/resumeData'
+import { useGlowEffect } from '../../hooks/useGlowEffect'
 
 const highlights = [
   { icon: Briefcase, label: 'C-Suite Exposure', detail: 'Product intern reporting directly to COO at Prodigal AI' },
-  { icon: Rocket, label: '3 Live Products', detail: 'Built and shipped from zero — NeeLedger, VoltIQ, Probazar' },
+  { icon: Rocket, label: '2 Live Products', detail: 'Built and shipped from zero — Neeledger, VoltIQ' },
   { icon: Trophy, label: 'National Finalist', detail: '8+ national competitions — always as Team Lead' },
   { icon: Users, label: 'Cross-functional Leader', detail: 'Led teams of 4–6 through discovery, build, and demo phases' },
 ]
 
 const fadeUp = {
-  hidden: { opacity: 0, y: 30 },
+  hidden: { opacity: 0, y: 30, filter: 'blur(6px)' },
   visible: (i) => ({
-    opacity: 1, y: 0,
+    opacity: 1, y: 0, filter: 'blur(0px)',
     transition: { delay: i * 0.12, duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }
   }),
 }
 
 export default function About() {
+  const { onMouseMove } = useGlowEffect()
+
   return (
     <section id="about" className="py-24 section-darker">
       <div className="max-w-5xl mx-auto px-6">
@@ -56,6 +59,7 @@ export default function About() {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, margin: '-60px' }}
+              onMouseMove={onMouseMove}
               className="glass-card rounded-xl p-5 group"
             >
               <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center mb-4 group-hover:bg-accent/20 transition-colors duration-300">

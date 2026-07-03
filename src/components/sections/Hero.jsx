@@ -1,7 +1,8 @@
 import { useRef, useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
-import { ArrowDown, Linkedin, Github } from 'lucide-react'
+import { ArrowDown, Linkedin, Github, Download } from 'lucide-react'
 import { resumeData } from '../../data/resumeData'
+import resumePdf from '../../../Resume/MasterResume.pdf'
 
 function AnimatedCounter({ value, duration = 2000 }) {
   const [display, setDisplay] = useState('0')
@@ -69,8 +70,14 @@ export default function Hero() {
             variants={itemVariants}
             className="font-display font-extrabold text-[clamp(2.4rem,5.5vw,4rem)] leading-[1.06] tracking-tight text-white mb-4"
           >
-            I sit at the intersection of product, data, and strategy.<br />
-            <span className="text-gradient">I build from there.</span>
+            {resumeData.title.includes("Let's build one.") ? (
+              <>
+                {resumeData.title.replace("Let's build one.", '')}
+                <span className="text-gradient">Let's build one.</span>
+              </>
+            ) : (
+              resumeData.title
+            )}
           </motion.h1>
 
           {/* Subtitle */}
@@ -78,7 +85,7 @@ export default function Hero() {
             variants={itemVariants}
             className="text-[1.05rem] text-slate-400 max-w-2xl leading-relaxed mb-10"
           >
-            AI & Data Science undergrad who has shipped 3 live products, worked in a COO's office, and diagnosed real product problems in B2B SaaS platforms — all before graduating.
+            {resumeData.subtitle}.
           </motion.p>
 
           {/* CTA */}
@@ -89,6 +96,14 @@ export default function Hero() {
             >
               View Case Studies
               <ArrowDown size={16} />
+            </a>
+            <a
+              href={resumePdf}
+              download="Himanshu_Resume.pdf"
+              className="inline-flex items-center gap-2 px-6 py-3 border border-accent/30 hover:border-accent text-accent-light font-semibold text-sm rounded-lg transition-all duration-300 bg-accent/5 hover:bg-accent/15"
+            >
+              <Download size={16} />
+              Download Resume
             </a>
             <a
               href={resumeData.linkedin}
