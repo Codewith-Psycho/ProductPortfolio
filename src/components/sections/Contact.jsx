@@ -19,7 +19,7 @@ export default function Contact() {
           </h2>
 
           <p className="text-sm text-slate-400 max-w-lg mx-auto mb-10 leading-relaxed">
-            Open to Data/Business Analyst, PM, and Founder's Office roles (Onsite / Remote / Hybrid). PAN-based.
+            Open to Product Management (PM/APM) roles (Onsite / Remote / Hybrid). PAN-India based.
           </p>
         </motion.div>
 

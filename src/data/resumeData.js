@@ -2,7 +2,7 @@
 export const resumeData = {
   name: 'Himanshu',
   title: "Great products start with internal clarity and relentless execution. Let's build one.",
-  subtitle: "AI & Data Science undergrad focused on systems and strategy. Open to Data/Business Analyst, PM, and Founder's Office roles (Onsite / Remote / Hybrid). PAN-based.",
+  subtitle: "AI & Data Science undergrad focused on systems and strategy. Open to Product Management (PM/APM) roles (Onsite / Remote / Hybrid). PAN-India based.",
   location: 'Delhi, India',
   email: 'himanshuworkin01@gmail.com',
   linkedin: 'https://www.linkedin.com/in/himanshu-15226b307/',
