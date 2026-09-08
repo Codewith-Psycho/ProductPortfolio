@@ -4,10 +4,10 @@ import { resumeData } from '../../data/resumeData'
 import { useGlowEffect } from '../../hooks/useGlowEffect'
 
 const highlights = [
-  { icon: Briefcase, label: 'C-Suite Exposure', detail: 'Product intern reporting directly to COO at Prodigal AI' },
-  { icon: Rocket, label: '2 Live Products', detail: 'Built and shipped from zero — Neeledger, VoltIQ' },
-  { icon: Trophy, label: 'National Finalist', detail: '8+ national competitions — always as Team Lead' },
-  { icon: Users, label: 'Cross-functional Leader', detail: 'Led teams of 4–6 through discovery, build, and demo phases' },
+  { icon: Briefcase, label: 'Program Delivery', detail: 'Managed 2 concurrent programs through the full SDLC — requirements to release, no playbook needed' },
+  { icon: Rocket, label: 'Sprint & Schedule Owner', detail: 'Ran sprints, maintained project plans, tracked milestones, and shipped on time — every single time' },
+  { icon: Trophy, label: 'Risk Management', detail: 'Identified blockers early, developed mitigation plans, and met every deadline across 8+ national programs' },
+  { icon: Users, label: 'Cross-Functional Coordinator', detail: 'Aligned Engineering, Product, and stakeholders across workstreams — not just coordination, full ownership' },
 ]
 
 const fadeUp = {
@@ -34,7 +34,7 @@ export default function About() {
           <div className="accent-line mb-4" />
           <p className="text-[0.7rem] font-semibold tracking-[0.15em] uppercase text-accent mb-3">About</p>
           <h2 className="font-display font-extrabold text-[clamp(1.5rem,3.5vw,2.2rem)] tracking-tight text-white mb-6">
-            Product-first. Data-informed.
+            Program-first. Data-driven. Shipping features on schedule.
           </h2>
         </motion.div>
 

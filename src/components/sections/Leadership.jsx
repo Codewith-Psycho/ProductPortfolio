@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion'
-import { Users, Calendar, Megaphone } from 'lucide-react'
+import { Users, Calendar, Megaphone, Target } from 'lucide-react'
 import { resumeData } from '../../data/resumeData'
 
-const icons = [Users, Calendar, Megaphone]
+const icons = [Target, Users, Calendar, Megaphone]
 
 export default function Leadership() {
   return (
@@ -13,7 +13,7 @@ export default function Leadership() {
           <p className="text-[0.7rem] font-semibold tracking-[0.15em] uppercase text-accent mb-3">Extracurricular</p>
           <h2 className="font-display font-extrabold text-[clamp(1.5rem,3.5vw,2.2rem)] tracking-tight text-white mb-12">Campus Leadership</h2>
         </motion.div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {resumeData.leadership.map((item, i) => {
             const Icon = icons[i]
             return (

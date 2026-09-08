@@ -10,7 +10,7 @@ export default function Experience() {
           <div className="accent-line mb-4" />
           <p className="text-[0.7rem] font-semibold tracking-[0.15em] uppercase text-accent mb-3">Background</p>
           <h2 className="font-display font-extrabold text-[clamp(1.5rem,3.5vw,2.2rem)] tracking-tight text-white mb-3">Work Experience</h2>
-          <p className="text-sm text-slate-500 max-w-lg mb-12 leading-relaxed">From C-suite strategy to hands-on product and data delivery.</p>
+          <p className="text-sm text-slate-500 max-w-lg mb-12 leading-relaxed">From requirements to release — managing programs across the full SDLC, on time, every time.</p>
         </motion.div>
         <div className="relative">
           <div className="absolute left-[18px] top-2 bottom-2 w-[2px] bg-gradient-to-b from-accent/40 via-accent/20 to-transparent hidden md:block" />

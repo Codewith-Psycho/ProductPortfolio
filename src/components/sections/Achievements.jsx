@@ -17,7 +17,7 @@ export default function Achievements() {
           <div className="accent-line mb-4" />
           <p className="text-[0.7rem] font-semibold tracking-[0.15em] uppercase text-accent mb-3">Recognition</p>
           <h2 className="font-display font-extrabold text-[clamp(1.5rem,3.5vw,2.2rem)] tracking-tight text-white mb-3">Achievements & Hackathons</h2>
-          <p className="text-sm text-slate-500 max-w-lg mb-2 leading-relaxed">The never-give-up mentality. Consistent Team Lead and finalist across national-level AI, Blockchain, SaaS & Product Strategy competitions (2024–2026).</p>
+          <p className="text-sm text-slate-500 max-w-lg mb-2 leading-relaxed">Led cross-functional teams through high-stakes, deadline-driven technical programs. Consistent Program Lead and finalist across national-level AI, Blockchain, SaaS & Product Strategy competitions (2024–2026).</p>
           <p className="text-xs text-slate-600 mb-12">Directed cross-functional squads of 4–6 members through discovery, build, and demo phases under high-stakes conditions.</p>
         </motion.div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

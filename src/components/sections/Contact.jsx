@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { Mail, Linkedin, Github, ArrowUpRight, Download } from 'lucide-react'
 import { resumeData } from '../../data/resumeData'
-import resumePdf from '../../../Resume/MasterResume.pdf'
+import resumePdf from '../../../Resume/Rubrik.pdf'
 
 export default function Contact() {
   return (
@@ -15,11 +15,11 @@ export default function Contact() {
           <p className="text-[0.7rem] font-semibold tracking-[0.15em] uppercase text-accent mb-6">Contact</p>
 
           <h2 className="font-display font-extrabold text-[clamp(1.8rem,4vw,2.5rem)] leading-tight text-white mb-6">
-            If you have a problem worth solving, I want to hear about it.
+            Let's build great programs together.
           </h2>
 
           <p className="text-sm text-slate-400 max-w-lg mx-auto mb-10 leading-relaxed">
-            Open to Product Management (PM/APM) roles (Onsite / Remote / Hybrid). PAN-India based.
+            Ready to drive technical program delivery in a world-class engineering organisation.
           </p>
         </motion.div>
 

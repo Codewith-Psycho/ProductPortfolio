@@ -9,8 +9,8 @@ export default function Education() {
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-80px' }} transition={{ duration: 0.7 }}>
           <div className="accent-line mb-4" />
           <p className="text-[0.7rem] font-semibold tracking-[0.15em] uppercase text-accent mb-3">Education</p>
-          <h2 className="font-display font-extrabold text-[clamp(1.5rem,3.5vw,2.2rem)] tracking-tight text-white mb-3">Academic Foundation</h2>
-          <p className="text-sm text-slate-500 max-w-lg mb-12 leading-relaxed">Undeniable proof of the ability to commit and build a strong foundation.</p>
+          <h2 className="font-display font-extrabold text-[clamp(1.5rem,3.5vw,2.2rem)] tracking-tight text-white mb-3">Education</h2>
+          <p className="text-sm text-slate-500 max-w-lg mb-12 leading-relaxed">B.Tech AI & Data Science · CGPA 8.8/10 · 2027 Graduate · Coursework in Project Management, Software Engineering & Cloud Computing.</p>
         </motion.div>
 
         <div className="space-y-6">

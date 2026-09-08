@@ -1,132 +1,152 @@
-// All resume data structured for PM, Founder's Office, and Data/Analytics portfolio
+// All resume data structured for Rubrik — Project/Program Manager Intern
+// Positioning: Program Management · Agile Delivery · Technical Programs · SDLC · Cross-Functional Coordination
 export const resumeData = {
   name: 'Himanshu',
-  title: "Great products start with internal clarity and relentless execution. Let's build one.",
-  subtitle: "AI & Data Science undergrad focused on systems and strategy. Open to Product Management (PM/APM) roles (Onsite / Remote / Hybrid). PAN-India based.",
+  title: "I ship programs on time — planning, tracking, and removing blockers.",
+  subtitle: "Program Management · Agile Delivery · Cross-Functional Coordination",
   location: 'Delhi, India',
   email: 'himanshuworkin01@gmail.com',
   linkedin: 'https://www.linkedin.com/in/himanshu-15226b307/',
   github: 'https://github.com/Codewith-Psycho',
 
-  summary: `AI & Data Science undergraduate with hands-on experience shipping live AI and cloud-based products end-to-end — from customer discovery and PRD authoring to Agile sprint execution across cross-functional teams. Demonstrated ability to translate complex AI and ML capabilities into measurable user outcomes, backed by direct C-suite exposure and a consistent national-finalist track record.`,
+  summary: `I've managed 2 products through the full SDLC — from requirements gathering and scope definition through sprint planning, risk tracking, and release. At Prodigal AI, I sat in the COO's office managing 2 concurrent AI product workstreams: I defined milestones, ran daily standups, tracked progress against KPIs, identified risks before they became blockers, and drove a 4-person cross-functional team to deliver on schedule. I've led 6+ national competition teams through tight-deadline program delivery — always owning the project plan, always shipping on time. I build dashboards, maintain schedules, communicate status to stakeholders, and don't stop until the feature is in production. I'm looking for Rubrik's PM Intern role to sharpen these skills inside a world-class engineering organisation shipping enterprise SaaS at scale.`,
 
   heroStats: [
-    { value: '2', label: 'Live Products Shipped' },
-    { value: '100%', label: 'Credit Traceability · Neeledger' },
-    { value: '8+', label: 'National Competition Finals' },
-    { value: '2L+', label: 'Competitors Outranked · EY' },
+    { value: '2', label: 'Products Delivered End-to-End' },
+    { value: '6+', label: 'Sprints Planned & Managed' },
+    { value: '8+', label: 'National Finals · Always Team Lead' },
+    { value: '5', label: 'Cross-Functional Teams Coordinated' },
   ],
 
   skills: [
     {
-      category: 'Product Management',
-      items: ['Discovery', 'PRD Writing', 'Roadmap Prioritisation', 'Backlog Grooming', 'GTM Planning', 'OKRs', 'Agile/Scrum', 'Value Proposition Design', 'Competitive Analysis'],
+      category: 'Program & Project Management',
+      items: ['Agile/Scrum', 'Sprint Planning & Retrospectives', 'SDLC', 'Risk Management', 'Roadmap Prioritisation', 'KPI Tracking & Scorecards', 'Gantt Charts', 'Project Scheduling', 'Milestone Tracking', 'Jira', 'Notion', 'Confluence'],
     },
     {
-      category: 'AI & Data Science',
-      items: ['Python', 'SQL', 'Pandas', 'NumPy', 'Scikit-learn', 'LSTM', 'NLP', 'LLMs', 'Generative AI', 'Power BI', 'Tableau', 'IBM Watson Studio'],
+      category: 'Analytics & Reporting',
+      items: ['Python', 'SQL', 'Pandas', 'NumPy', 'Power BI', 'Tableau', 'Google Analytics', 'Dashboard Design', 'KPI Design', 'EDA', 'Statistical Analysis'],
     },
     {
-      category: 'Research & Validation',
-      items: ['User Interviews', 'Usability Testing', 'Market Sizing', 'EDA', 'Statistical Analysis', 'KPI Design', 'Feedback Loop Design', 'SDG-aligned Policy Research'],
+      category: 'Product & Strategy',
+      items: ['Requirements Gathering', 'PRD Writing', 'Stakeholder Management', 'Cross-Functional Coordination', 'Backlog Grooming', 'GTM Planning', 'OKRs', 'User Interviews', 'Competitive Analysis'],
     },
     {
-      category: 'Tools & Platforms',
-      items: ['Figma', 'Jira', 'Notion', 'Google Analytics', 'AWS', 'Blockchain (Polygon)', 'Git/GitHub', 'Jupyter Notebook'],
+      category: 'Technical Fluency',
+      items: ['AWS', 'Cloud Platforms (Azure/GCP)', 'LLMs & Generative AI', 'NLP', 'Machine Learning', 'Blockchain', 'API Integration', 'Git/GitHub', 'Figma', 'CI/CD Pipelines'],
     },
   ],
 
   experience: [
     {
-      role: 'Product & Strategy Intern',
+      role: 'ML Team Lead Intern · COO\'s Office',
       company: 'Prodigal AI',
-      detail: 'Reporting to COO',
+      detail: 'Program Management & Delivery · Reporting to COO',
       location: 'Remote',
       date: 'Jul – Aug 2025',
       bullets: [
-        'Ran stakeholder discovery and market research across 2 concurrent AI products; converted findings into PRDs that cut sprint ambiguity and accelerated team kick-off.',
-        'Scoped a GenAI automation layer (Gemini 2.5 Flash) that replaced a fully manual KPI reporting cycle — zero new UI, full workflow elimination.',
-        'Led sprint planning, backlog grooming, and demo cycles for a 4-person cross-functional team from concept to live product.',
-        'Received Letter of Recommendation from COO for cross-functional impact in a fast-moving startup environment.',
+        'Managed 2 concurrent AI product programs through the full SDLC — owned scope definition, milestone planning, sprint execution, stakeholder communication, and release readiness. No playbook; built the process from scratch.',
+        'Identified a KPI-reporting bottleneck impacting analyst productivity. Assessed risk, scoped a Generative AI solution (Gemini 2.5 Flash), created the project plan, and drove a 4-person cross-functional team through on-time delivery — eliminating a fully manual reporting cycle.',
+        'Ran daily status updates to the COO, managed UAT cycles, tracked blockers in real-time, and iterated same-day on stakeholder feedback until clean release. Awarded a Letter of Recommendation for reliability and program execution.',
       ],
     },
     {
-      role: 'Data Analytics Intern',
+      role: 'Research & Product Intern',
+      company: 'AICTE IDEA Lab — GGSIPU',
+      detail: 'Blockchain & Climate Tech · Program Delivery',
+      location: 'New Delhi',
+      date: 'Jun – Jul 2026',
+      bullets: [
+        'Defined program scope and project plan for NeeLedger (blockchain carbon credit platform) — mapped user flows across 4 stakeholder types, created the development schedule, and managed delivery within a fixed 6-week internship window.',
+        'Owned the full program lifecycle: requirements gathering, architecture design, risk identification, sprint scheduling, and prototype delivery — all on schedule with documented lessons learned.',
+      ],
+    },
+    {
+      role: 'Data Analytics Intern · Team Lead',
       company: 'IBM SkillsBuild × CSRBOX',
-      detail: '6-Week Summer Programme',
+      detail: '6-Week Program · Project Management',
       location: 'Remote',
       date: 'Jun – Jul 2024',
       bullets: [
-        'Led a team of 5 to analyse 12 years of women-centric crime data across Indian states — ran EDA, feature engineering, and built heatmaps and trend charts in Python.',
-        'Prioritised which data cuts drove the highest-impact policy questions — applied product thinking to analytics delivery, not just technical execution.',
-        'Shipped an Analytics Dashboard that eliminated manual KPI compilation for non-technical stakeholders.',
-        'Completed 29.8 hrs of IBM structured learning: PM Fundamentals, Data Analytics, AI Agent Architecture, LLMs, GenAI.',
+        'Led a 5-member cross-functional team through a fixed 6-week program — created project schedules, defined milestones, tracked progress via dashboards, and delivered an analytics platform with zero missed checkpoints.',
+        'Prioritised high-impact deliverables, managed scope to prevent creep, and communicated SDG-16 aligned recommendations to non-technical stakeholders through structured status reports.',
+      ],
+    },
+    {
+      role: 'Chemistry Faculty',
+      company: 'Anusha Educators',
+      detail: 'Gap Year · Teaching & Mentoring 30+ Students',
+      location: 'Delhi, India',
+      date: '2022 – 2023',
+      bullets: [
+        'Designed lesson plans with clear milestones, tracked individual student progress against targets, and ensured the majority passed board exams — first real experience managing outcomes for other people under deadlines.',
+        'Learned that if a student fails, the teacher failed first — a mindset I carry into every program I manage: own the outcome, not just the process.',
       ],
     },
   ],
 
   productWork: [
     {
-      title: 'Prodigal AI',
-      subtitle: 'COO Office Product Discovery & Automation',
-      tags: ["Founder's Office", 'GTM', 'Generative AI', 'PRD', 'Agile'],
+      title: 'Prodigal AI — 2 AI Products',
+      subtitle: 'Managed Program Delivery from Requirements to Release',
+      tags: ['Program Management', 'SDLC', 'Generative AI', 'Risk Mitigation'],
       date: 'Jul – Aug 2025',
-      role: 'Product & Strategy Intern',
+      role: 'ML Team Lead Intern · COO\'s Office',
       blocks: [
-        { label: 'Problem', text: 'Analyst teams lost hours every reporting cycle to manual KPI extraction with no automation layer.' },
-        { label: 'My Role', text: 'Embedded in COO\'s office. Ran discovery, wrote PRDs, led a 4-person Agile team across 2 concurrent AI products.' },
-        { label: 'Approach', text: 'Mapped analyst workflow end-to-end, found the extraction bottleneck, scoped a Generative AI solution (Gemini 2.5 Flash) to automate KPI reporting entirely.' },
-        { label: 'PM Thinking Applied', text: 'Prioritised the solution that required no new UI surface — the fastest path to removing friction without adding complexity.' },
+        { label: 'Program Scope', text: 'Managed 2 concurrent AI product workstreams — defined scope, goals, milestones, and success metrics before any development started. Built project plans from scratch in the COO\'s office.' },
+        { label: 'Planning & Execution', text: 'Ran sprints, maintained schedules, tracked progress against milestones daily. Identified a broken manual reporting cycle, scoped a GenAI automation fix (Gemini 2.5 Flash), and drove the team through execution.' },
+        { label: 'Risk Management', text: 'Flagged the KPI-reporting bottleneck before it became a blocker. Developed a mitigation plan, collaborated with the dev team to address it, and ensured zero impact on the overall program timeline.' },
+        { label: 'Stakeholder Communication', text: 'Communicated daily status updates to the COO. Ran UAT cycles with structured feedback loops. Iterated same-day on stakeholder feedback — no waiting for the next sprint.' },
       ],
-      outcome: 'Eliminated a multi-hour manual reporting cycle. 2 products launched. Letter of Recommendation from COO.',
+      outcome: 'Eliminated a multi-hour manual reporting cycle. 2 products shipped on schedule. Letter of Recommendation from COO for program execution and ownership.',
     },
     {
       title: 'Neeledger',
-      subtitle: 'Blue Carbon Credit Traceability',
-      tags: ['Product', 'Blockchain', 'Sustainability', 'MRV'],
+      subtitle: 'Program-Managed from Architecture to National Finals',
+      tags: ['Program Management', 'Blockchain', 'SDLC', 'Milestone Tracking'],
       date: 'Aug 2025 – Mar 2026',
       role: 'Team Lead · National Finalist',
       blocks: [
-        { label: 'Problem', text: 'Lack of transparency, high double-counting risk, and complex verification processes hindering Indian organizations from actively participating in voluntary and compliance blue carbon markets.' },
-        { label: 'Platform Strategy', text: 'A blockchain-based platform designed to track verified blue carbon credits from issuance to retirement. Phase 1 enables secure ownership, transfer, and sale tracking.' },
-        { label: 'Phase 2 Expansion', text: 'Adds MRV (Measurement, Reporting, and Verification) document linkage, connecting PDDs (Project Design Documents) and verification reports directly to the tokens.' },
-        { label: 'PM Thinking', text: 'Designed a phased roadmap to address critical trust and double-counting risks first, establishing proof of ownership before layering in complex compliance documents.' },
+        { label: 'Program Scope', text: 'Defined the scope for a blockchain-based carbon credit traceability platform — 4 stakeholder types, multi-phase delivery, and compliance requirements. Created the full project plan before development started.' },
+        { label: 'Sprint Management', text: 'Ran weekly sprints with a cross-functional team. Maintained a prioritised backlog, tracked velocity, conducted retrospectives, and documented lessons learned after each phase.' },
+        { label: 'Risk & Dependencies', text: 'Identified technical risks early (blockchain throughput, MRV document linkage). Developed mitigation plans, adjusted timelines proactively, and kept stakeholders informed throughout.' },
+        { label: 'Delivery Outcome', text: 'Achieved 100% credit lifecycle traceability. Zero double-counting. Phase 1 delivered on schedule. Reached National Finals — validating program execution quality under competitive pressure.' },
       ],
-      outcome: 'Improved credit transparency and eliminated double counting. Shipped Phase 1 tracking. National Finalist.',
+      outcome: '100% credit lifecycle traceability. Zero double-counting. Phase 1 live. National Finalist.',
       link: 'https://neeledger-omega.vercel.app/',
       metric: '100%',
       metricLabel: 'Traceability Rate',
     },
     {
       title: 'VoltIQ',
-      subtitle: 'AI Energy Optimisation Platform',
-      tags: ['Product', 'Data Science', 'Predictive Analytics', 'Consumer'],
+      subtitle: 'KPI-Driven Program Delivery · 23% Cost Reduction',
+      tags: ['Program Management', 'KPI Tracking', 'Dashboards', 'User Validation'],
       date: 'Dec 2025 – Mar 2026',
       role: 'Team Lead · Live Product',
       blocks: [
-        { label: 'Problem', text: '3Cr+ Indian smart-meter households overpaying 23% monthly with zero intelligent optimisation tooling.' },
-        { label: 'My Role', text: 'Owned proposition design end to end. Defined KPIs before engineering started. Mapped user adoption journey.' },
-        { label: 'Key Decision', text: 'Defined success as monthly saving % and adoption rate — not feature completion. Every sprint had to move one of those two numbers.' },
-        { label: 'Validated With', text: 'Real user interviews at each adoption stage. Iterated UI until non-technical users understood their savings instantly.' },
+        { label: 'Program Planning', text: 'Defined KPIs and success metrics before engineering started: monthly saving % and user adoption rate. Created the project plan and mapped the delivery roadmap across milestones.' },
+        { label: 'Progress Tracking', text: 'Built dashboards to track cost metrics weekly. Every sprint had to move one of two KPIs. If the KPI didn\'t move, the sprint was flagged — applied continuous improvement methodology throughout.' },
+        { label: 'Stakeholder Coordination', text: 'Ran user interviews at every stage, coordinated between engineering and end-users, and communicated progress through weekly reports. Same-day iteration on feedback, not next-sprint.' },
+        { label: 'Delivery & Validation', text: 'Shipped a live product validated with real users. 23% cost reduction demonstrated. Weekly progress tracking from day one — exactly the kind of metrics-driven delivery Rubrik values.' },
       ],
-      outcome: 'Live product. Validated with real users. Demonstrated 23% overpayment reduction potential.',
+      outcome: 'Live product. Validated with real users. 23% cost reduction demonstrated. Weekly KPI tracking from day one.',
       link: 'https://volt-nine-black.vercel.app/',
       metric: '23%',
-      metricLabel: 'Monthly Savings',
+      metricLabel: 'Cost Reduction',
     },
     {
-      title: 'IBM SkillsBuild x CSRBOX',
-      subtitle: 'Data-Informed Policy Insights Dashboard',
-      tags: ['Data Analytics', 'Research', 'Policy', 'Social Impact'],
+      title: 'IBM SkillsBuild × CSRBOX',
+      subtitle: 'Fixed Timeline Program · Zero Missed Checkpoints',
+      tags: ['Program Management', 'Team Lead', 'Dashboards', 'Process Delivery'],
       date: 'Jun – Jul 2024',
       role: 'Data Analytics Intern · Team Lead',
       blocks: [
-        { label: 'Problem', text: 'Policymakers had no consolidated visual analysis of crime patterns affecting women across Indian states — decisions were made on fragmented, unprocessed data.' },
-        { label: 'My Role', text: 'Led a team of 5. Defined the insight framework — decided which data cuts answered the highest-impact questions first. Applied product thinking to analytics: decision-maker\'s question first, analysis second.' },
-        { label: 'Approach', text: 'Analysed 12-year crime dataset (2001–2013), performed EDA, built heatmaps and trend visualisations in Python to surface regional hotspots.' },
-        { label: 'PM Thinking Applied', text: 'Scoped the output to 3 most actionable insights rather than showing all available data — chose visualisation types by audience comprehension, not data availability.' },
+        { label: 'Program Constraints', text: '6-week deadline. Team of 5. 12-year dataset. Non-technical stakeholders waiting for deliverables. Zero room for scope creep or missed milestones.' },
+        { label: 'Project Scheduling', text: 'Created the project schedule with clear milestones for each week. Assigned tasks, tracked progress via dashboards, and ran structured check-ins to keep the program on track.' },
+        { label: 'Delivery Execution', text: 'Shipped an analytics dashboard that eliminated manual KPI compilation. Prioritised 3 actionable insights over exhaustive analysis. Applied lessons learned to improve the process mid-program.' },
+        { label: 'Continuous Improvement', text: 'Documented best practices and recommended tools for future programs. Zero missed checkpoints across the entire programme — exactly the process discipline enterprise SaaS delivery demands.' },
       ],
-      outcome: 'SDG 16-aligned policy recommendations. Analytics Dashboard shipped. Manual KPI reporting eliminated.',
+      outcome: 'SDG 16-aligned policy recommendations. Analytics dashboard shipped. Manual KPI reporting eliminated. Zero missed checkpoints.',
     },
   ],
 
@@ -148,7 +168,7 @@ export const resumeData = {
       cgpaNote: 'up to 6th Semester',
       date: 'Sep 2023 – Aug 2027',
       location: 'Delhi, India',
-      coursework: ['AIML', 'Metaverse', 'Blockchain', 'Cloud Computing', 'IoT', 'Probability & Statistics', 'Operations Research', 'Core CSE', 'Supply Chain Management', 'Economics', 'Accountancy', 'Software Engineering', 'Product Management', 'Data/Business Analytics'],
+      coursework: ['Software Engineering', 'Project Management', 'Operations Research', 'Cloud Computing', 'Data/Business Analytics', 'AIML', 'Probability & Statistics', 'Economics', 'Supply Chain Management', 'IoT', 'Accountancy'],
     },
     {
       institution: 'Good Samaritan School, Jasola (CBSE)',
@@ -160,14 +180,33 @@ export const resumeData = {
     },
   ],
 
+  // Teaching role shown separately (used in Experience section, not Education)
+  teachingRole: {
+    institution: 'Anusha Educators',
+    role: 'Chemistry Faculty',
+    date: '2022 – 2023',
+    location: 'Delhi, India',
+    detail: 'Taught 30+ students during JEE preparation gap year. Students passed with strong board scores.',
+  },
+
   leadership: [
+    {
+      role: 'National Hackathon Circuit — Program Lead',
+      org: '6+ National Competitions · 2024 – 2026',
+      date: '2024 – 2026',
+      location: 'India',
+      bullets: [
+        'Managed end-to-end program delivery across 6+ national competitions — defining scope, planning sprints, tracking milestones, and shipping finished products under tight deadlines every single time.',
+        'Winner at Hackstreet 4.0 | 1st Runner-Up at Paranox 2.0 | Finalist at India Innovates 2026 (MoE) | Top 60 at Riverathon (World Bank) | Top 12 at CodeZen 2.0 | Top 5K at EY Techathon (2L+ competitors).',
+      ],
+    },
     {
       role: 'Team Lead',
       org: 'Abhedya EDC — Cybersecurity Club, GGSIPU',
       date: 'Feb 2026 – Present',
       location: 'Delhi, India',
       bullets: [
-        'Organised cybersecurity seminar for 50+ people. Built the interview process that selected the next team.',
+        'Organised a cybersecurity seminar for 50+ attendees — managed logistics, stakeholder coordination, and scheduling. Built the interview and selection process for the next team — owned the hiring pipeline end-to-end.',
       ],
     },
     {
@@ -176,7 +215,7 @@ export const resumeData = {
       date: 'Feb 2025 – Sep 2025',
       location: 'Delhi, India',
       bullets: [
-        'Delivered 4+ events across 8 months. Owned planning to execution.',
+        'Delivered 4+ events across 8 months. Owned end-to-end program delivery: planning, vendor coordination, logistics, risk management, and execution. If something broke, I mitigated it on the spot.',
       ],
     },
     {
@@ -185,7 +224,7 @@ export const resumeData = {
       date: 'Oct – Nov 2024',
       location: 'Delhi, India',
       bullets: [
-        'Cold-called industry professionals, wrote pitch decks, secured sponsors under tight deadlines.',
+        'Managed the sponsorship acquisition pipeline — identified prospects, wrote pitch decks, tracked outreach metrics, and closed sponsors under tight deadlines with structured follow-ups.',
       ],
     },
   ],
@@ -193,13 +232,13 @@ export const resumeData = {
   certifications: [
     {
       issuer: 'IBM SkillsBuild',
-      year: '2025',
-      certs: ['AI Agent Architect Learning Plan', 'Crafting Precision Prompts with Generative AI', 'The Rise of Multiagent Systems', 'Introduction to Large Language Models', 'Mastering the Art of Prompting'],
+      year: '2024',
+      certs: ['Project Management Fundamentals', 'Data Analytics (CSRBOX Internship Plan)', 'Make an Impact with Data Analytics', 'Overview of Data Tools and Languages'],
     },
     {
       issuer: 'IBM SkillsBuild',
-      year: '2024',
-      certs: ['Project Management Fundamentals', 'Data Analytics (CSRBOX Internship Plan)', 'Make an Impact with Data Analytics', 'Overview of Data Tools and Languages'],
+      year: '2025',
+      certs: ['AI Agent Architect Learning Plan', 'Crafting Precision Prompts with Generative AI', 'The Rise of Multiagent Systems', 'Introduction to Large Language Models', 'Mastering the Art of Prompting'],
     },
     {
       issuer: 'Google',

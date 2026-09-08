@@ -2,7 +2,7 @@ import { useRef, useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { ArrowDown, Linkedin, Github, Download } from 'lucide-react'
 import { resumeData } from '../../data/resumeData'
-import resumePdf from '../../../Resume/MasterResume.pdf'
+import resumePdf from '../../../Resume/Rubrik.pdf'
 
 function AnimatedCounter({ value, duration = 2000 }) {
   const [display, setDisplay] = useState('0')
@@ -61,7 +61,7 @@ export default function Hero() {
           {/* Tag */}
           <motion.div variants={itemVariants} className="mb-6">
             <span className="inline-block text-[0.7rem] font-semibold tracking-[0.15em] uppercase text-accent bg-accent/10 px-4 py-1.5 rounded-full border border-accent/20">
-              Product · Data · Strategy
+              Program Management · Agile Delivery · Technical Programs
             </span>
           </motion.div>
 

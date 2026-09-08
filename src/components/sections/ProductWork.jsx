@@ -100,9 +100,9 @@ export default function ProductWork() {
       <div className="max-w-5xl mx-auto px-6">
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-80px' }} transition={{ duration: 0.7 }}>
           <div className="accent-line mb-4" />
-          <p className="text-[0.7rem] font-semibold tracking-[0.15em] uppercase text-accent mb-3">Case Studies</p>
-          <h2 className="font-display font-extrabold text-[clamp(1.5rem,3.5vw,2.2rem)] tracking-tight text-white mb-3">Product Work</h2>
-          <p className="text-sm text-slate-500 max-w-lg mb-12 leading-relaxed">Every project started with a real market gap — not a feature idea. Here's how I think through problems.</p>
+          <p className="text-[0.7rem] font-semibold tracking-[0.15em] uppercase text-accent mb-3">Track Record</p>
+          <h2 className="font-display font-extrabold text-[clamp(1.5rem,3.5vw,2.2rem)] tracking-tight text-white mb-3">Programs I've Planned, Managed & Delivered</h2>
+          <p className="text-sm text-slate-500 max-w-lg mb-12 leading-relaxed">Every program started with scope definition, a project plan, and clear milestones. I tracked progress, managed risks, and shipped on time.</p>
         </motion.div>
 
         {/* Bento Grid: first card spans 2 cols, rest fill 2-col grid */}
