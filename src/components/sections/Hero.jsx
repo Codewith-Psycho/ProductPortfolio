@@ -2,7 +2,7 @@ import { useRef, useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import { ArrowDown, Linkedin, Github, Download } from 'lucide-react'
 import { resumeData } from '../../data/resumeData'
-import resumePdf from '../../../Resume/Rubrik.pdf'
+import resumePdf from '../../../Resume/Resume.pdf'
 
 function AnimatedCounter({ value, duration = 2000 }) {
   const [display, setDisplay] = useState('0')

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { Mail, Linkedin, Github, ArrowUpRight, Download } from 'lucide-react'
 import { resumeData } from '../../data/resumeData'
-import resumePdf from '../../../Resume/Rubrik.pdf'
+import resumePdf from '../../../Resume/Resume.pdf'
 
 export default function Contact() {
   return (
